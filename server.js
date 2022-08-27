@@ -6,10 +6,10 @@ const routes = require('./routes')
 const app = express()
 app.set('port', process.env.PORT || 4000)
 const dbOptions = {
-    host: 'localhost',
+    host: 'prueba.ckxaicxr8flm.us-east-1.rds.amazonaws.com',
     port: 3306,
-    user: 'root',
-    password: '',
+    user: 'admin',
+    password: 'pelusa17',
     database: 'library'
 }
 
