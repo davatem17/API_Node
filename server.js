@@ -4,7 +4,7 @@ const myconn = require('express-myconnection')
 
 const routes = require('./routes')
 const app = express()
-app.set('port', process.env.PORT || 4000)
+app.set('port', process.env.PORT || 3000)
 const dbOptions = {
     host: 'prueba.ckxaicxr8flm.us-east-1.rds.amazonaws.com',
     port: 3306,
